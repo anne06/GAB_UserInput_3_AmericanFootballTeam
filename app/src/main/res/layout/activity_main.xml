@@ -29,6 +29,7 @@
                 />
 
             <TextView
+                android:id="@+id/team-a-score"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
@@ -45,6 +46,7 @@
                 android:padding="16dp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="@android:color/white"
+                android:onClick="touchDownTeamA"
                 />
 
             <Button
@@ -54,6 +56,7 @@
                 android:padding="16dp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="@android:color/white"
+                android:onClick="patTeamA"
 
                 />
 
@@ -64,6 +67,7 @@
                 android:padding="16dp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="@android:color/white"
+                android:onClick="fieldGoalTeamA"
 
                 />
 
@@ -74,6 +78,7 @@
                 android:padding="16dp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="@android:color/white"
+                android:onClick="safetyTeamA"
 
                 />
 
@@ -102,6 +107,7 @@
                 />
 
             <TextView
+                android:id="@+id/team-b-score"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
@@ -118,7 +124,7 @@
                 android:padding="16dp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="@android:color/white"
-
+                android:onClick="touchDownTeamB"
                 />
 
             <Button
@@ -128,7 +134,7 @@
                 android:padding="16dp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="@android:color/white"
-
+                android:onClick="patTeamB"
                 />
 
             <Button
@@ -138,6 +144,7 @@
                 android:padding="16dp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="@android:color/white"
+                android:onClick="fieldGoalTeamB"
 
                 />
 
@@ -148,6 +155,7 @@
                 android:padding="16dp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="@android:color/white"
+                android:onClick="safetyTeamB"
 
                 />
 
@@ -164,6 +172,7 @@
         android:padding="16dp"
         android:layout_margin="32dp"
         android:textColor="@android:color/white"
+        android:onClick="reset"
 
         />
 
